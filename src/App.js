@@ -20,7 +20,7 @@ function App() {
           <Route path='/'>
             <Header />
             <Home />
-            <h1>Welcome to Amazon</h1>
+            {/* <h1>Welcome to Amazon</h1> */}
           </Route>
         </Switch>
       </div>
