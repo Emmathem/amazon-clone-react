@@ -1,0 +1,55 @@
+@import "./_partials/vars";
+
+.header {
+    background: $amazon_blue;
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        width: 100px;
+        margin: 18px 20px 0;
+        object-fit: contain;
+    }
+
+    &__search {
+        display: flex;
+        flex: 1;
+    }
+
+    &__searchInput {
+        height: 12px;
+        padding: 10px;
+        border: none;
+        width: 100%;
+        // border-radius: 2px;
+    }
+
+    &__searchIcon {
+        padding: 5px;
+        height: 22px !important;
+        background-color: $IconColor;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__option {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+        &__lineOne {
+            font-size: 10px;
+        }
+        &__lineTwo {
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
+
+    &__link {
+        color: $white;
+        text-decoration: none;
+    }
+}
