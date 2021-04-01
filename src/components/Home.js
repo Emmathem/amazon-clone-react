@@ -12,6 +12,7 @@ function Home() {
       />
       <div className="home__row">
         <Product
+          key={0}
           id="121213"
           title="The Lean Startup: How Constant Innovation Creative"
           price={19.96}
@@ -19,6 +20,7 @@ function Home() {
           image="https://images-eu.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
         />
         <Product
+          key={1}
           id="12126"
           title="The Lean Startup: How Constant Innovation Creative"
           price={11.96}
@@ -28,6 +30,7 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
+          key={2}
           id="121243"
           title="Samsung LCUEYEUEHEES 49' Curved LED Gaming Monitor"
           price={198.96}
@@ -35,6 +38,7 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
         />
         <Product
+          key={3}
           id="121203"
           title="Amazon Echo 3rd Generation"
           price={11.96}
@@ -42,6 +46,7 @@ function Home() {
           image="https://images-eu.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
         />
         <Product
+          key={4}
           id="121213"
           title="The Lean Startup: How Constant Innovation Creative"
           price={11.96}

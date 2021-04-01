@@ -1,0 +1,39 @@
+.checkout {
+
+    // display: flex;
+    // flex-direction: column;
+    &__ad {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.checkoutProduct {
+    display: flex;
+
+    &__info {
+        padding-left: 20px;
+
+        >button {
+            background: #f0c14b;
+            border: 1px solid;
+            margin-top: 10px;
+            border-color: #a88734 #9c7e31 #846a29;
+            color: #111;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+    }
+
+    &__rating {
+        display: flex;
+    }
+
+    &__image {
+        width: 180px;
+        height: 100%;
+        object-fit: contain;
+    }
+}
